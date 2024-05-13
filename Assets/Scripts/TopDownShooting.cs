@@ -38,6 +38,11 @@ public class TopDownShooting : MonoBehaviour
         // TODO :: 날라가질 않기 때문에 날라가게 만들 것임 
         Instantiate(TestPrefab, projectileSpawnPosition.position, Quaternion.identity);
     }
+
+    public void hello()
+    {
+        Console.WriteLine("안녕");
+    }
 }
 
 
