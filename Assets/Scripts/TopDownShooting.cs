@@ -43,6 +43,11 @@ public class TopDownShooting : MonoBehaviour
     {
         Console.WriteLine("안녕");
     }
+
+    public void hello1()
+    {
+        Console.WriteLine("안녕1");
+    }
 }
 
 
